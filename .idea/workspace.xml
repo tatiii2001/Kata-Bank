@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7a4ccf4-a02e-4325-91d2-cc8d9402a9a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com.example.kata/Account.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com.example.kata/AccountService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com.example.kata/AccountTest.kt" afterDir="false" />
+    <list default="true" id="c7a4ccf4-a02e-4325-91d2-cc8d9402a9a4" name="Changes" comment="Creation of the AccountService class, which serves as an interface to the Account class, implementation the method for deposit and withdraw, and implementation the tests for a different scenarios">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com.example.kata/Account.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com.example.kata/Account.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com.example.kata/AccountTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com.example.kata/AccountTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,18 +59,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.AccountTest.deposit.executor": "Run",
-    "Gradle.AccountTest.deposit2.executor": "Run",
-    "Gradle.AccountTest.withdraw.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Tati/proyectos/Kata-CountingDuplicates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.AccountTest.deposit.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AccountTest.deposit2.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AccountTest.withdraw.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Tati/proyectos/Kata-Bank&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateKotlinClassDialog.RecentsKey">
       <recent name="com.example.kata" />
@@ -185,6 +174,19 @@
       <option name="presentableId" value="Default" />
       <updated>1711101535715</updated>
     </task>
+    <task id="LOCAL-00001" summary="Creation of the AccountService class, which serves as an interface to the Account class, implementation the method for deposit and withdraw, and implementation the tests for a different scenarios">
+      <option name="closed" value="true" />
+      <created>1711980951902</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711980951902</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creation of the AccountService class, which serves as an interface to the Account class, implementation the method for deposit and withdraw, and implementation the tests for a different scenarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creation of the AccountService class, which serves as an interface to the Account class, implementation the method for deposit and withdraw, and implementation the tests for a different scenarios" />
   </component>
 </project>
