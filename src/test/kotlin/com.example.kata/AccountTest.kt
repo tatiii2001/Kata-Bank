@@ -7,21 +7,16 @@ class AccountTest {
     @Test
     fun deposit() {
         val account = Account()
-
         account.deposit(500)
-
         account.printStatement()
-
         assertEquals(500, account.balance)
     }
     @Test
     fun withdraw(){
         val account = Account()
-
+        account.deposit(1000)
         account.withdraw(500)
-
         account.printStatement()
-
-        assertEquals(-500, account.balance)
+        assertEquals(500, account.balance)
     }
 }

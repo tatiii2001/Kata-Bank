@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7a4ccf4-a02e-4325-91d2-cc8d9402a9a4" name="Changes" comment="Creation of the AccountService class, which serves as an interface to the Account class, implementation the method for deposit and withdraw, and implementation the tests for a different scenarios">
+    <list default="true" id="c7a4ccf4-a02e-4325-91d2-cc8d9402a9a4" name="Changes" comment="Refactor: collect in a variable the current day">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com.example.kata/Account.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com.example.kata/Account.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/com.example.kata/AccountTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com.example.kata/AccountTest.kt" afterDir="false" />
@@ -48,6 +48,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -59,25 +64,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.AccountTest.deposit.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.AccountTest.deposit2.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.AccountTest.withdraw.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Tati/proyectos/Kata-Bank&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.AccountTest.deposit.executor": "Run",
+    "Gradle.AccountTest.deposit2.executor": "Run",
+    "Gradle.AccountTest.executor": "Run",
+    "Gradle.AccountTest.withdraw.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "banck__with__mockk",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Tati/proyectos/Kata-Bank",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateKotlinClassDialog.RecentsKey">
       <recent name="com.example.kata" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AccountTest.withdraw">
+  <component name="RunManager" selected="Gradle.AccountTest">
+    <configuration name="AccountTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.kata.AccountTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="AccountTest.deposit" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -152,8 +182,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AccountTest.withdraw" />
+        <item itemvalue="Gradle.AccountTest" />
         <item itemvalue="Gradle.AccountTest.deposit" />
+        <item itemvalue="Gradle.AccountTest.withdraw" />
         <item itemvalue="Gradle.AccountTest.deposit2" />
       </list>
     </recent_temporary>
@@ -182,11 +213,20 @@
       <option name="project" value="LOCAL" />
       <updated>1711980951902</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactor: collect in a variable the current day">
+      <option name="closed" value="true" />
+      <created>1712821646385</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712821646385</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creation of the AccountService class, which serves as an interface to the Account class, implementation the method for deposit and withdraw, and implementation the tests for a different scenarios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creation of the AccountService class, which serves as an interface to the Account class, implementation the method for deposit and withdraw, and implementation the tests for a different scenarios" />
+    <MESSAGE value="Refactor: collect in a variable the current day" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor: collect in a variable the current day" />
   </component>
 </project>

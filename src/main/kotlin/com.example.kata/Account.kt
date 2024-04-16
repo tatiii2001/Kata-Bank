@@ -4,23 +4,22 @@ import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
 class Account : AccountService{
+    data class Action(val dataTime : String, val singAction : String, val amount: Int, val balance : Int)
 
-    data class Action(val dataTime : String, val amount: String, val balance : Int)
-
-    private var actions = listOf<Action>()
+    private var actions = mutableListOf<Action>()
     var balance = 0
-    private val formatter: DateTimeFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy")
 
+    private val formatter: DateTimeFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy")
     private val currentDate = LocalDateTime.now().format(formatter)
 
     override fun deposit(amount: Int) {
-        this.balance += amount
-        this.actions.toMutableList().add(Action(currentDate, amount.toString(), this.balance))
+        balance += amount
+        actions.add(Action(currentDate,"+", amount, balance))
     }
 
     override fun withdraw(amount: Int) {
-        this.balance -= amount
-        this.actions.toMutableList().add(Action(currentDate, "-$amount", this.balance))
+        balance -= amount
+        actions.add(Action(currentDate, "-",amount, balance))
     }
 
     override fun printStatement() {
@@ -28,7 +27,7 @@ class Account : AccountService{
             "Date         ||  Amount  ||  Balance"
         )
         actions.forEach {
-            println(it.dataTime+"   ||  "+it.amount+"     ||    "+it.balance)
+            println(it.dataTime+"   ||  "+it.singAction+it.amount+"     ||    "+it.balance)
         }
     }
 
